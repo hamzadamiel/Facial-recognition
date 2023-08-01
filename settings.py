@@ -1,9 +1,9 @@
 import mysql.connector
 
-
+//change details 
 mydb = mysql.connector.connect(
-    host = "sost2.blackburn.ac.uk",
-    user = "20307975",
-    password = "HD2020",
-    database = "20307975"
+    host = "host",
+    user = "user",
+    password = "password",
+    database = "db"
 )
