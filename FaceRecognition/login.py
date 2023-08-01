@@ -16,7 +16,7 @@ import attendance
 
 OUTPUT_PATH = Path(__file__).parent
 #ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\20307975\Desktop\opencv_project\login\build\assets\frame0")
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\20307975\Desktop\opencv_project\assets\frame0") //change path accordingly
+ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\20307975\Desktop\opencv_project\assets\frame0") #change path accordingly
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
